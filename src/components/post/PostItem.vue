@@ -22,7 +22,7 @@ const copia = props;
 //Funciones
 
 const clicked = () =>{
-    emits('sayHi')
+    emits('sayHi',props.id)
 }
 
 </script>
