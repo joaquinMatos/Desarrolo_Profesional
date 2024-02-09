@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button @click="clicked">clickkaene</button>
+        <button @click="clicked()">clickkaene</button>
         <PostItem 
             @say-hi="clicked()"
             v-bind="post"
