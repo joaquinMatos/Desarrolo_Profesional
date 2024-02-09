@@ -15,14 +15,14 @@ import type { IPost } from '@/Interfaces/IPost';
 import { ref } from'vue'
 
 const props  = defineProps<IPost>();
-const emits = defineEmits(['sayhey'])
+const emits = defineEmits(['sayHi'])
 const titulo = ref('')
 const copia = props;
 
 //Funciones
 
 const clicked = () =>{
-    alert("Hola desde el hijo")
+    emits('sayHi')
 }
 
 </script>
