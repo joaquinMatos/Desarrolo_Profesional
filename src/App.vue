@@ -1,13 +1,11 @@
 <script setup lang="ts">
-import PostList from './components/post/PostList.vue'
+  import Formulario from './components/ListaDatos/Lista.vue'
 </script>
 
 <template>
   <main>
-    <PostList/>
+    <Formulario/>
   </main>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
